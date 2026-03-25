@@ -10,4 +10,11 @@ public class EmergencyPriority {
         else
             return "Normal";
     }
+    public static int getPriorityValue(String priority) {
+        switch (priority) {
+            case "Critical": return 1;
+            case "Serious": return 2;
+            default: return 3;
+        }
+    }
 }
