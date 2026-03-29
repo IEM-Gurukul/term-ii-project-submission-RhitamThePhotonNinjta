@@ -17,33 +17,33 @@ Users can also select their preferred doctor, and appropriate treatment is provi
 
 ## Target User
 
-.Hospital emergency department staff
+ - Hospital emergency department staff
 
-.Doctors and medical assistants
+ - Doctors and medical assistants
 
-.Hospital administrators
+ - Hospital administrators
 
-.Students learning Java and OOP concepts
+ - Students learning Java and OOP concepts
 
-.Educational institutions for project demonstration
+ - Educational institutions for project demonstration
 
 ## Core Features
 
- .Patient registration (name, disease, priority)
+  - Patient registration (name, disease, priority)
 
- .Doctor selection by user (from available list)
+  - Doctor selection by user (from available list)
 
- .Condition-based treatment system (Medicine, First Aid, Surgery)
+  - Condition-based treatment system (Medicine, First Aid, Surgery)
 
- .Priority-based decision (critical patients get emergency treatment)
+  - Priority-based decision (critical patients get emergency treatment)
 
- .Object-Oriented design using classes and objects
+  - Object-Oriented design using classes and objects
 
- .Inheritance and polymorphism in treatment classes
+  - Inheritance and polymorphism in treatment classes
 
- .Exception handling for invalid inputs
+  - Exception handling for invalid inputs
 
- .Loop-based system to handle multiple patients
+  - Loop-based system to handle multiple patients
 
 
 ## OOP Concepts Used
@@ -71,15 +71,15 @@ The Treatment class acts as a base class, while subclasses like Medicine, FirstA
 
 3.Make sure all classes are either:
 
-  .In the same file (only one public class), OR
-  .In separate files with correct names:
-      .Hospital.java
-      .Patient.java
-      .Doctor.java
-      .Treatment.java
-      .FirstAid.java
-      .Surgery.java
-      .Medicine.java
+ * In the same file (only one public class), OR
+ * In separate files with correct names:
+      - Hospital.java
+      - Patient.java
+      - Doctor.java
+      - Treatment.java
+      - FirstAid.java
+      - Surgery.java
+      - Medicine.java
 
 4.Compile the program:
 
@@ -90,10 +90,10 @@ The Treatment class acts as a base class, while subclasses like Medicine, FirstA
     java Hospital
 
 6.Enter patient details when prompted:
-      .Name
-      .Disease (fever/injury/heart)
-      .Priority (normal/critical)
-      .Select doctor (1, 2, or 3)
+    - Name
+    - Disease (fever/injury/heart)
+    - Priority (normal/critical)
+    - Select doctor (1, 2, or 3)
 7.The system will assign a doctor and display the treatment
 8.Choose whether to add another patient (yes/no)
 9.The program will stop when you enter no
