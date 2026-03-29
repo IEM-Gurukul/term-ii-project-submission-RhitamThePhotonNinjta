@@ -90,12 +90,19 @@ The Treatment class acts as a base class, while subclasses like Medicine, FirstA
     java Hospital
 
 6.Enter patient details when prompted:
-    - Name
-    - Disease (fever/injury/heart)
-    - Priority (normal/critical)
-    - Select doctor (1, 2, or 3)
+
+   -  Name: -
+
+   -  Disease (fever/injury/heart): -
+
+   -  Priority (normal/critical): -
+
+   -  Select doctor (1, 2, or 3): -
+
 7.The system will assign a doctor and display the treatment
+
 8.Choose whether to add another patient (yes/no)
+
 9.The program will stop when you enter no
 
 ## Git Discipline Notes
