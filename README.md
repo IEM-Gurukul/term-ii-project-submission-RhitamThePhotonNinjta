@@ -18,9 +18,13 @@ Users can also select their preferred doctor, and appropriate treatment is provi
 ## Target User
 
 .Hospital emergency department staff
+
 .Doctors and medical assistants
+
 .Hospital administrators
+
 .Students learning Java and OOP concepts
+
 .Educational institutions for project demonstration
 
 ## Core Features
