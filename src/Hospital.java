@@ -28,7 +28,7 @@ public static void main(String[] args) {
                 d = new Doctor("Dr.MD.Arman.Ali");
                 break;
             default:
-                throw new IllegalArgumentException("Invalid Doctor Choice!");
+                throw new IllegalArgumentException("Invalid Doctor Choice");
         }
                 Patient p = new Patient(name, cond, priority);
                 d.treatPatient(p);

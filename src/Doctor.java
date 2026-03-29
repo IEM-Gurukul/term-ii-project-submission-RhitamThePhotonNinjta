@@ -7,7 +7,7 @@ public class Doctor {
         System.out.println("\n Doctor " + docName + " is checking " + p.getName());
     Treatment t;
       if (p.getPriority().equalsIgnoreCase("critical")) {
-            System.out.println(" Critical Condition! Sending to Emergency...");
+            System.out.println(" Critical Condition Sending to Emergency ");
             t = new Surgery();
      } else {
             if (p.getCond().equalsIgnoreCase("fever")) {
